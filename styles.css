@@ -11,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
 }
 
 .right-side {
@@ -60,6 +60,8 @@ input {
 
 a {
     color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 input:focus {
@@ -75,6 +77,7 @@ button {
     font-size: medium;
     color: white;
     background-color: #596D48;
+    cursor: pointer;
 }
 
 .error {
@@ -91,6 +94,10 @@ button {
 
 .e:after {
     content:"* Email required"
+}
+
+.ei:after {
+    content:"* Invalid email"
 }
 
 .p:after {

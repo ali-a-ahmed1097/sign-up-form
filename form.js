@@ -1,3 +1,5 @@
+const emailRegExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
 function submitForm() {
     firstName = document.getElementById('first-name');
     email = document.getElementById('e-mail');
@@ -14,6 +16,10 @@ function submitForm() {
     if (email.value === '') {
         email.classList.add('error');
         document.getElementById('e').classList.add('e');
+        submission = false;
+    } else if (!emailRegExp.test(email.value)) {
+        email.classList.add('error');
+        document.getElementById('e').classList.add('ei');
         submission = false;
     }
     if (pwd.value === '' && cpwd.value === '') {
