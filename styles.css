@@ -43,14 +43,35 @@ fieldset {
     margin-left: -5vw;
     padding-left: 5vw;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 38px;
     padding-right: 27vw;
     border: 0;
     background-color: white;
+    margin-bottom: 24px;
+    box-shadow: 2px 3px 4px gray;
 }
 
 input {
     width: 14vw;
     height: 25px;
     padding-left: 0.5rem;
+}
+
+a {
+    color: #596D48;
+}
+
+input:focus {
+    outline-color: #719ECE;
+}
+
+button {
+    width: 200px;
+    padding: 16px;
+    border-radius: 5px;
+    border: 0px;
+    border-style: solid;
+    font-size: medium;
+    color: white;
+    background-color: #596D48;
 }
