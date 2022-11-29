@@ -55,6 +55,7 @@ input {
     width: 14vw;
     height: 25px;
     padding-left: 0.5rem;
+    border-style: solid;
 }
 
 a {
@@ -74,4 +75,32 @@ button {
     font-size: medium;
     color: white;
     background-color: #596D48;
+}
+
+.error {
+    border-color: red;
+}
+
+.error:focus {
+    outline-color: red;
+}
+
+.f:after {
+    content:"* First name required"
+}
+
+.e:after {
+    content:"* Email required"
+}
+
+.p:after {
+    content:"* Password required"
+}
+
+.cp:after {
+    content:"* Passwords do not match"
+}
+
+span {
+    color: red;
 }
