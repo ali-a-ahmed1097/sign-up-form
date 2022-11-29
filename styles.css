@@ -111,3 +111,14 @@ button {
 span {
     color: red;
 }
+
+.logo {
+    color: white;
+    margin-top: 20vh;
+    font-size: 32pt;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
