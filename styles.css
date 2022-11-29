@@ -1,0 +1,56 @@
+.left-side {
+    width: 35vw;
+    height: 100vh;
+    background-image: url('./images/unsplash.jpg');
+    background-size: 35vw 100vh;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: blanchedalmond;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    padding-left: 5vw;
+}
+
+.forms {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 33vw;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.indiv {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+}
+
+fieldset {
+    margin-left: -5vw;
+    padding-left: 5vw;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 27vw;
+    border: 0;
+    background-color: white;
+}
+
+input {
+    width: 14vw;
+    height: 25px;
+    padding-left: 0.5rem;
+}
